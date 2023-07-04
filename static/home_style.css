@@ -1,0 +1,48 @@
+div.pets-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.listing-container {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+p.listing-available {
+    font-weight: bold;
+    color: #9fad99;
+    font-size: 15px;
+}
+
+a.pet-listing-available {
+    font-weight: bold;
+    color: #56e01b;
+    font-size: 15px;
+}
+
+p.listing-unavailable {
+    color: #9fad99;
+    font-size: 15px;
+}
+
+a.pet-listing-unavailable {
+    color: #ed4e42;
+    font-size: 15px;
+}
+
+button.add-btn {
+    background-color: #56e01b;
+}
